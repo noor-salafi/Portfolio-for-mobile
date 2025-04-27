@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="shortcut icon" href="Noor-logo-1.png" type="image/x-icon">
+    <title>Noor's Process</title>
+</head>
+<body>
+    <header class="bg-[#0f172a] py-3 w-full">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+          <!-- Logo Section -->
+          <div class="flex items-center ml-4">
+            <h1 class="bg-[#3b82f6] rounded-full w-10 h-10 flex items-center justify-center font-bold text-white text-2xl font-[Poppins]">
+              N
+            </h1>
+            <h2 class="text-sm ml-2 font-semibold text-white font-[Poppins]">Noor Salafi</h2>
+          </div>
+      
+          <!-- Desktop Menu -->
+          <nav class="hidden md:flex items-center space-x-10 mr-20">
+            <ul class="flex space-x-8">
+              <li><a href="./index.html" class="font-semibold text-sm text-slate-400 hover:text-[#3b82f6] transition duration-300">Home</a></li>
+              <li><a href="./about.html" class="font-semibold text-sm text-slate-400 hover:text-[#3b82f6] transition duration-300">About</a></li>
+              <li><a href="./process.html" class="font-semibold text-sm text-slate-400 hover:text-[#3b82f6] transition duration-300">Process</a></li>
+              <li><a href="./project.html" class="font-semibold text-sm text-slate-400 hover:text-[#3b82f6] transition duration-300">Projects</a></li>
+              <li><a href="./contact.html" class="font-semibold text-sm text-slate-400 hover:text-[#3b82f6] transition duration-300">Contact</a></li>
+            </ul>
+            <button class="ml-6 bg-[#3b82f6] px-5 py-2 rounded-full text-white text-sm hover:scale-105 hover:shadow-lg transition duration-300">
+              Get a Quote
+            </button>
+          </nav>
+      
+          <!-- Mobile Hamburger Button -->
+          <div class="md:hidden mr-4">
+            <button id="menu-toggle" class="text-white focus:outline-none">
+              <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M4 6h16M4 12h16M4 18h16"></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+      
+        <!-- Mobile Menu (Hidden by default) -->
+        <div id="mobile-menu" class="hidden md:hidden bg-[#0f172a] px-6 pb-4">
+          <ul class="flex flex-col space-y-4">
+            <li><a href="./index.html" class="block text-slate-400 hover:text-[#3b82f6]">Home</a></li>
+            <li><a href="./about.html" class="block text-slate-400 hover:text-[#3b82f6]">About</a></li>
+            <li><a href="./process.html" class="block text-slate-400 hover:text-[#3b82f6]">Process</a></li>
+            <li><a href="./project.html" class="block text-slate-400 hover:text-[#3b82f6]">Projects</a></li>
+            <li><a href="./contact.html" class="block text-slate-400 hover:text-[#3b82f6]">Contact</a></li>
+            <button class="mt-4 w-full bg-[#3b82f6] py-2 rounded-full text-white text-sm hover:scale-105 hover:shadow-lg transition duration-300">
+              Get a Quote
+            </button>
+          </ul>
+        </div>
+      </header>
+      <div class="process-section mx-auto w-full flex flex-col md:flex-row bg-[#0f172a] p-6 md:p-10">
+        <div class="process-content flex flex-col items-center justify-center md:w-1/2 p-4">
+            <h2 class="text-3xl text-slate-100 font-bold font-[Poppins] text-center">Work Process</h2>
+            <p class="text-xs text-slate-400 font-[Poppins] leading-relaxed max-w-xl text-center mt-8">
+                From idea to mainnet, I turn blockchain visions into reality. I start by understanding your goals, then architect smart contracts tailored for performance and security. After clean coding and seamless DApp integration, I rigorously test and audit—before confidently launching your project on the blockchain. Let's build, securely and smartly.
+            </p>
+        </div>
+    
+        <div class="card flex flex-wrap justify-center md:w-1/2 p-4">
+            <!-- Card 1 -->
+            <div class="research w-72 h-40 flex flex-col items-center justify-center bg-[#1e293b] m-3 hover:scale-105 hover:shadow-lg transition-all duration-300 ease-in-out hover:bg-[#334155] hover:ring-2 hover:ring-blue-500 rounded-xl">
+                <svg class="size-7 text-blue-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="m15.75 15.75-2.489-2.489..."/></svg>
+                <h2 class="text-sm mt-3 text-slate-100 font-semibold font-[Poppins]">Discovery & Planning</h2>
+                <p class="text-center text-xs text-slate-400 mt-5 font-[Poppins]">Understanding project goals & defining the blockchain solution.</p>
+            </div>
+    
+            <!-- Card 2 -->
+            <div class="design w-72 h-40 flex flex-col items-center justify-center bg-[#1e293b] m-3 hover:scale-105 hover:shadow-lg transition-all duration-300 ease-in-out hover:bg-[#334155] hover:ring-2 hover:ring-blue-500 rounded-xl">
+                <svg class="size-7 text-blue-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="..."/></svg>
+                <h2 class="text-sm mt-3 text-slate-100 font-semibold font-[Poppins]">Smart Contract Architecture</h2>
+                <p class="text-center text-xs text-slate-400 mt-5 font-[Poppins]">Designing secure and efficient smart contracts.</p>
+            </div>
+    
+            <!-- Card 3 -->
+            <div class="analyze w-72 h-40 flex flex-col items-center justify-center bg-[#1e293b] m-3 hover:scale-105 hover:shadow-lg transition-all duration-300 ease-in-out hover:bg-[#334155] hover:ring-2 hover:ring-blue-500 rounded-xl">
+                <svg class="size-7 text-blue-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="..."/></svg>
+                <h2 class="text-sm mt-3 text-slate-100 font-semibold font-[Poppins]">Testing & Audit</h2>
+                <p class="text-center text-xs text-slate-400 mt-5 font-[Poppins]">Ensuring reliability and security through thorough testing.</p>
+            </div>
+    
+            <!-- Card 4 -->
+            <div class="launch w-72 h-40 flex flex-col items-center justify-center bg-[#1e293b] m-3 hover:scale-105 hover:shadow-lg transition-all duration-300 ease-in-out hover:bg-[#334155] hover:ring-2 hover:ring-blue-500 rounded-xl">
+                <svg class="size-7 text-blue-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="..."/></svg>
+                <h2 class="text-sm mt-3 text-slate-100 font-semibold font-[Poppins]">Deployment & Support</h2>
+                <p class="text-center text-xs text-slate-400 mt-5 font-[Poppins]">Deploying on blockchain networks and providing ongoing support.</p>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    const menuToggle = document.getElementById('menu-toggle');
+    const mobileMenu = document.getElementById('mobile-menu');
+  
+    menuToggle.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+<footer class="bg-[#0f172a] py-10 text-slate-400">
+    <div class="footer-content flex flex-col items-center text-center">
+      <h2 class="text-white text-3xl font-bold font-[Poppins]">Noor Salafi</h2>
+      <h4 class="text-slate-200 text-xs italic font-[Poppins] mt-2">Blockchain Developer</h4>
+      <p class="text-sm mt-4 font-[Poppins]">
+        Building blockchain-powered solutions for real-world impact.
+      </p>
+    </div>
+  
+    <!-- Navigation Links -->
+    <ul class="flex flex-wrap gap-6 justify-center mt-8">
+      <li><a href="./index.html" class="hover:text-blue-400 transition">Home</a></li>
+      <li><a href="./about.html" class="hover:text-blue-400 transition">About</a></li>
+      <li><a href="./process.html" class="hover:text-blue-400 transition">Process</a></li>
+      <li><a href="./project.html" class="hover:text-blue-400 transition">Projects</a></li>
+      <li><a href="./contact.html" class="hover:text-blue-400 transition">Contact</a></li>
+    </ul>
+  
+    <!-- Copyright -->
+    <p class="text-xs text-slate-500 text-center mt-8 font-[Poppins]">
+      © 2025 Noor Salafi. All rights reserved.
+    </p>
+  </footer>
+</html>

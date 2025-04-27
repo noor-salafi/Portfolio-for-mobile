@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="shortcut icon" href="Noor-logo-1.png" type="image/x-icon">
+    <title>Noor's Contact</title>
+</head>
+<body>
+    <header class="bg-[#0f172a] py-3 w-full">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+          <!-- Logo Section -->
+          <div class="flex items-center ml-4">
+            <h1 class="bg-[#3b82f6] rounded-full w-10 h-10 flex items-center justify-center font-bold text-white text-2xl font-[Poppins]">
+              N
+            </h1>
+            <h2 class="text-sm ml-2 font-semibold text-white font-[Poppins]">Noor Salafi</h2>
+          </div>
+      
+          <!-- Desktop Menu -->
+          <nav class="hidden md:flex items-center space-x-10 mr-20">
+            <ul class="flex space-x-8">
+              <li><a href="./index.html" class="font-semibold text-sm text-slate-400 hover:text-[#3b82f6] transition duration-300">Home</a></li>
+              <li><a href="./about.html" class="font-semibold text-sm text-slate-400 hover:text-[#3b82f6] transition duration-300">About</a></li>
+              <li><a href="./process.html" class="font-semibold text-sm text-slate-400 hover:text-[#3b82f6] transition duration-300">Process</a></li>
+              <li><a href="./project.html" class="font-semibold text-sm text-slate-400 hover:text-[#3b82f6] transition duration-300">Projects</a></li>
+              <li><a href="./contact.html" class="font-semibold text-sm text-slate-400 hover:text-[#3b82f6] transition duration-300">Contact</a></li>
+            </ul>
+            <button class="ml-6 bg-[#3b82f6] px-5 py-2 rounded-full text-white text-sm hover:scale-105 hover:shadow-lg transition duration-300">
+              Get a Quote
+            </button>
+          </nav>
+      
+          <!-- Mobile Hamburger Button -->
+          <div class="md:hidden mr-4">
+            <button id="menu-toggle" class="text-white focus:outline-none">
+              <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M4 6h16M4 12h16M4 18h16"></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+      
+        <!-- Mobile Menu (Hidden by default) -->
+        <div id="mobile-menu" class="hidden md:hidden bg-[#0f172a] px-6 pb-4">
+          <ul class="flex flex-col space-y-4">
+            <li><a href="./index.html" class="block text-slate-400 hover:text-[#3b82f6]">Home</a></li>
+            <li><a href="./about.html" class="block text-slate-400 hover:text-[#3b82f6]">About</a></li>
+            <li><a href="./process.html" class="block text-slate-400 hover:text-[#3b82f6]">Process</a></li>
+            <li><a href="./project.html" class="block text-slate-400 hover:text-[#3b82f6]">Projects</a></li>
+            <li><a href="./contact.html" class="block text-slate-400 hover:text-[#3b82f6]">Contact</a></li>
+            <button class="mt-4 w-full bg-[#3b82f6] py-2 rounded-full text-white text-sm hover:scale-105 hover:shadow-lg transition duration-300">
+              Get a Quote
+            </button>
+          </ul>
+        </div>
+      </header>
+      <div class="contact-section flex flex-col border-t w-full bg-[#1e293b] p-6">
+        <div class="cont-content flex flex-col lg:flex-row justify-between items-center max-w-6xl mx-auto gap-10">
+          
+          <!-- Left Side (Info) -->
+          <div class="flex flex-col items-center lg:items-start w-full lg:w-1/2">
+            <h2 class="text-3xl text-center lg:text-left text-slate-100 font-[Poppins]">Reach Out to Me</h2>
+            <p class="text-sm text-center lg:text-left leading-5 text-slate-400 mt-5 font-[Poppins]">
+              I'm currently open to new opportunities, collaborations, or just a friendly chat. Drop a message and I'll get back to you as soon as possible.
+            </p>
+            
+            <!-- Info Boxes -->
+            <div class="info mt-10 flex flex-col gap-5 w-full max-w-xs">
+              
+              <div class="bg-[#ffffff20] rounded-t-xl py-3 px-5 text-center">
+                <h3 class="text-xl text-slate-100 font-[Poppins]">Address:</h3>
+                <p class="text-sm text-slate-400 font-[Poppins]">Rangpur, Dhaka, Bangladesh</p>
+              </div>
+      
+              <div class="bg-[#ffffff20] py-3 px-5 text-center">
+                <h3 class="text-xl text-slate-100 font-[Poppins]">My Email:</h3>
+                <p class="text-sm text-slate-400 font-[Poppins]">noorsalafiinfo@gmail.com</p>
+              </div>
+      
+              <div class="bg-[#ffffff20] rounded-b-xl py-3 px-5 text-center">
+                <h3 class="text-xl text-slate-100 font-[Poppins]">Call Me Now:</h3>
+                <p class="text-sm text-slate-400 font-[Poppins]">+8801789-466237</p>
+              </div>
+            </div>
+      
+            <!-- Social Links -->
+            <div class="social-links flex flex-wrap justify-center lg:justify-start gap-5 mt-8">
+              <!-- Facebook -->
+              <a href="https://web.facebook.com/NoorSalafii" target="_blank" class="text-slate-300 hover:text-blue-500">
+                <svg xmlns="http://www.w3.org/2000/svg" class="size-8 hover:scale-110 transition" viewBox="0 0 48 48">
+                  <path fill="#039be5" d="M24 5A19 19 0 1 0 24 43A19 19 0 1 0 24 5Z"></path>
+                  <path fill="#fff" d="M26.572,29.036h4.917l0.772-4.995h-5.69v-2.73c0-2.075,0.678-3.915,2.619-3.915h3.119v-4.359c-0.548-0.074-1.707-0.236-3.897-0.236c-4.573,0-7.254,2.415-7.254,7.917v3.323h-4.701v4.995h4.701v13.729C22.089,42.905,23.032,43,24,43c0.875,0,1.729-0.08,2.572-0.194V29.036z"></path>
+                </svg>
+              </a>
+      
+              <!-- LinkedIn -->
+              <a href="https://linkedin.com/" target="_blank" class="text-slate-300 hover:text-blue-500">
+                <svg xmlns="http://www.w3.org/2000/svg" class="size-8 hover:scale-110 transition" viewBox="0 0 48 48">
+                  <path fill="#0288D1" d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5V37z"></path>
+                  <path fill="#FFF" d="M12 19H17V36H12zM14.485 17h-.028C12.965 17 12 15.888 12 14.499 12 13.08 12.995 12 14.514 12c1.521 0 2.458 1.08 2.486 2.499C17 15.887 16.035 17 14.485 17zM36 36h-5v-9.099c0-2.198-1.225-3.698-3.192-3.698-1.501 0-2.313 1.012-2.707 1.99C24.957 25.543 25 26.511 25 27v9h-5V19h5v2.616C25.721 20.5 26.85 19 29.738 19c3.578 0 6.261 2.25 6.261 7.274L36 36 36 36z"></path>
+                </svg>
+              </a>
+      
+              <!-- GitHub -->
+              <a href="https://github.com/noor-salafi" target="_blank" class="text-slate-300 hover:text-blue-500">
+                <svg xmlns="http://www.w3.org/2000/svg" class="size-8 hover:scale-110 transition" viewBox="0 0 256 256">
+                  <path fill="#228be6" d="M128 16C58.752 16 0 74.752 0 144c0 56.8 36.8 105.6 88 122.4 6.4 1.6 8.8-2.8 8.8-6.4v-22c-36 8-43.6-17.6-43.6-17.6-5.6-14.4-13.6-18.4-13.6-18.4-11.2-7.6 0.8-7.6 0.8-7.6 12.4 0.8 18.8 12.8 18.8 12.8 11.2 18.8 29.6 13.6 36.8 10.4 1.6-8 4.8-13.6 8.8-16.8-28.8-3.2-59.2-14.4-59.2-64 0-14.4 5.2-26.4 13.6-36-1.6-3.2-6.4-16.4 1.6-34.4 0 0 11.2-3.6 36.8 13.6 10.4-2.8 21.6-4 32.8-4 11.2 0 22.4 1.2 32.8 4 25.6-17.2 36.8-13.6 36.8-13.6 8 18 3.2 31.2 1.6 34.4 8.8 9.6 13.6 21.6 13.6 36 0 49.6-30.4 60.8-59.2 64 4.8 4 8.8 11.2 8.8 22.4v33.6c0 3.6 2.4 8 8.8 6.4 51.2-16.8 88-65.6 88-122.4 0-69.248-58.752-128-128-128z"></path>
+                </svg>
+              </a>
+      
+              <!-- Pinterest -->
+              <a href="https://pin.it/1RcJ1icVp" target="_blank" class="text-slate-300 hover:text-blue-500">
+                <svg xmlns="http://www.w3.org/2000/svg" class="size-8 hover:scale-110 transition" viewBox="0 0 48 48">
+                  <circle cx="24" cy="24" r="20" fill="#E60023"></circle>
+                  <path fill="#FFF" d="M24 11.4c-8.6 0-13.2 5.8-13.2 12.1 0 2.9 1.6 6.6 4.1 7.7 0.4 0.2 0.6 0.1 0.7-0.3 0.1-0.3 0.4-1.6 0.6-2.3 0-0.2 0-0.4-0.1-0.6-0.8-1-1.5-2.8-1.5-4.6 0-4.4 3.3-8.7 9-8.7 4.9 0 8.4 3.3 8.4 8.1 0 5.4-2.7 9.2-6.3 9.2-2 0-3.4-1.6-3-3.6 0.6-2.4 1.7-4.9 1.7-6.7 0-1.5-0.8-2.8-2.5-2.8-2 0-3.6 2.1-3.6 4.9 0 1.8 0.6 3 0.6 3s-2 8.4-2.3 9.9c-0.4 1.7-0.2 4.1-0.1 5.7l0 0c0.5 0.2 0.9 0.4 1.4 0.5l0 0c0.8-1.3 2-3.5 2.5-5.2 0.2-0.9 1.2-4.8 1.2-4.8 0.7 1.2 2.6 2.3 4.6 2.3 6 0 10.4-5.5 10.4-12.4 0-5.8-5.4-10.7-12.3-10.7z"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+      
+          <!-- Right Side (Form) -->
+          <form class="w-full lg:w-1/2 flex flex-col gap-4 bg-[#ffffff20] p-8 rounded-lg">
+            <label for="name" class="text-white font-[Poppins]">Write your full name</label>
+            <input class="bg-slate-500 text-slate-200 p-2 rounded text-sm font-[Poppins]" type="text" id="name" placeholder="Type your name">
+      
+            <label for="email" class="text-white font-[Poppins]">Enter a valid email</label>
+            <input class="bg-slate-500 text-slate-200 p-2 rounded text-sm font-[Poppins]" type="email" id="email" placeholder="example@gmail.com">
+      
+            <label for="number" class="text-white font-[Poppins]">Type your budget</label>
+            <input class="bg-slate-500 text-slate-200 p-2 rounded text-sm font-[Poppins]" type="number" id="number" placeholder="Example: 1000.00$">
+      
+            <button class="bg-blue-500 hover:bg-blue-600 text-white font-[Poppins] py-2 rounded mt-4">Send Message</button>
+          </form>
+        </div>
+      </div>
+</body>
+<script>
+    const menuToggle = document.getElementById('menu-toggle');
+    const mobileMenu = document.getElementById('mobile-menu');
+  
+    menuToggle.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+<footer class="bg-[#0f172a] py-10 text-slate-400">
+    <div class="footer-content flex flex-col items-center text-center">
+      <h2 class="text-white text-3xl font-bold font-[Poppins]">Noor Salafi</h2>
+      <h4 class="text-slate-200 text-xs italic font-[Poppins] mt-2">Blockchain Developer</h4>
+      <p class="text-sm mt-4 font-[Poppins]">
+        Building blockchain-powered solutions for real-world impact.
+      </p>
+    </div>
+  
+    <!-- Navigation Links -->
+    <ul class="flex flex-wrap gap-6 justify-center mt-8">
+      <li><a href="./index.html" class="hover:text-blue-400 transition">Home</a></li>
+      <li><a href="./about.html" class="hover:text-blue-400 transition">About</a></li>
+      <li><a href="./process.html" class="hover:text-blue-400 transition">Process</a></li>
+      <li><a href="./project.html" class="hover:text-blue-400 transition">Projects</a></li>
+      <li><a href="./contact.html" class="hover:text-blue-400 transition">Contact</a></li>
+    </ul>
+  
+    <!-- Copyright -->
+    <p class="text-xs text-slate-500 text-center mt-8 font-[Poppins]">
+      © 2025 Noor Salafi. All rights reserved.
+    </p>
+  </footer>
+</html>
